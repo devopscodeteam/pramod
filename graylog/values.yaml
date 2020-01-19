@@ -211,11 +211,11 @@ graylog:
   ## Graylog root password
   ## Defaults to a random 16-character alphanumeric string if not set
   ##
-  # rootPassword: ""
+  rootPassword: "password"
 
   ## Graylog root email
   ##
-  rootEmail: ""
+  rootEmail: "sathishyelloju@gmail.com"
 
   ## Graylog root timezone
   ##
