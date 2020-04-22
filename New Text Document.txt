@@ -1,0 +1,12 @@
+
+####################  Set-Context for namespace  ####################
+ 
+kubectl config set-context <name of the context> --cluster=<cluster-name> --user=<user-name> --namespace=<namespace name>
+
+####################  Get-Context  ####################
+
+ kubectl config get-contexts
+  
+####################  Delete-Context  ####################
+
+kubectl config delete-context <name of the context>
